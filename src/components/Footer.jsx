@@ -1,4 +1,12 @@
-import { Facebook, Instagram, Pinterest, Twitter } from "@material-ui/icons";
+import {
+  Facebook,
+  Instagram,
+  Pinterest,
+  Twitter,
+  MailOutline,
+  Room,
+  Phone,
+} from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
 
@@ -104,9 +112,17 @@ function Footer() {
       </Center>
       <Right>
         <Title>تماس با ما</Title>
-        <p className="mb-4">مشهد-بلوار فکوری-فکوری ۲۴</p>
-        <p className="mb-4">۰۹۱۵۸۲۸۷۸۰۷</p>
-        <p className="mb-4">MahdiParivash@Protonmail.com</p>
+        <p className="mb-4">
+          <Room />
+          مشهد-بلوار فکوری-فکوری ۲۴
+        </p>
+        <p className="mb-4">
+          <Phone />
+          ۰۹۱۵۸۲۸۷۸۰۷
+        </p>
+        <p className="mb-4">
+          <MailOutline /> MahdiParivash@Protonmail.com
+        </p>
       </Right>
     </Container>
   );
